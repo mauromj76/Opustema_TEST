@@ -11,6 +11,8 @@ import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 import org.springframework.stereotype.Repository;
 
+// modifica per commit di prova
+
 @Repository
 public class CittaDaoImpl1221 implements CittaDao1221 {
 
