@@ -1,0 +1,158 @@
+.right-txt>div.col-md-5.col-lg-6{
+    padding-left: 10px;
+}
+.span{
+    display: inline-block;
+}
+.box-border{
+    border-color: #ccc;
+}
+div#content-container{
+    padding:2vw 5vw;  
+    margin-top: 0;
+}
+div#bol-hbol-titolo-lista-strutture{
+    text-align: left;
+    padding-left: 0;
+}
+
+div#bol-hbol-lista-strutture-container.container-fluid>div.row{
+    margin-bottom: 20px;
+}
+
+div#bol-hbol-lista-strutture-container.container-fluid>div.row>div{
+    padding: 0;
+    
+}
+div#bol-hbol-lista-strutture-container.container-fluid>div.row>div>div.row{
+    margin:0;
+}
+
+h4.bold, h5.bold,h6.bold{
+    font-weight: bolder;
+}
+
+div.address{
+    padding: 0;
+}
+
+div.aule, div.aule-left,div.aule-right{
+    padding:  0;
+}
+
+div.aule{
+    min-height: 220px;
+    background-color: white;
+}
+
+div.aule-left>div.row{
+    margin: 0;
+}
+
+/*CSS for Carosel, first one, on  the top*/
+div.carousel#article-photo-carousel { 
+    max-width: 550px;
+}
+
+
+span.col-xs-3.col-sm-3.col-md-3.col-lg-3,
+span.col-xs-9.col-sm-9.col-md-9.col-lg-9{
+     padding-left: 5px;
+    padding-right: 0;
+}
+span.col-xs-3.col-sm-3.col-md-3.col-lg-3{
+    min-height:  20px;
+    min-width: 40px;
+}
+span.col-xs-9.col-sm-9.col-md-9.col-lg-9{
+    font-size: 1vw;
+    text-align: left;
+    
+}
+
+div.aule.box-border>div.row{
+    padding: 0 10px;
+    background-color: white;
+}
+
+div.container-fluid.oferte{
+    background-color: whitesmoke;
+}
+
+
+/* Indicators list style */
+.article-slide .carousel-indicators {
+    bottom: 0;
+    left: 0;
+    margin-left: 5px;
+    width: 100%;
+}
+
+div.row.contact{
+    margin: 0;
+}
+/* Indicators list style */
+.article-slide .carousel-indicators li {
+    border: medium none;
+    border-radius: 0;
+    float: left;
+    height: 54px;
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: 5px !important;
+    margin-top: 0;
+    width: 100px;
+}
+/* Indicators images style */
+.article-slide .carousel-indicators img {
+    border: 2px solid #FFFFFF;
+    float: left;
+    height: 54px;
+    left: 0;
+    width: 100px;
+}
+.img-responsive .img-600-400{
+    width: 100%;
+    height: 400px;
+}
+
+div.img-600-400{
+  height: 300px; 
+  width: 300px;
+}
+
+
+.img-responsive .img-250-150{
+    /*width: 100%;*/
+    height: 160px;
+    width: 160px;
+}
+
+img.img-responsive.aula-img{
+   height: 160px;
+   width: 160px;
+}
+
+/* Indicators active image style */
+.article-slide .carousel-indicators .active img {
+    border: 2px solid #428BCA;
+    opacity: 0.7;
+}
+
+/*== End Carosel == */
+
+img.img-responsive.logo{
+    float: right;
+    margin-top: 5px;
+}
+
+/*div#aula-show div.distance.col-xs-4.col-sm-4.col-md-4.col-lg-4{
+    padding: 5px;
+}*/
+
+div.distance>div>div.row{
+    margin: 0;
+}
+div#bol-hbol-lista-strutture-container.container-fluid>div.row>div.distance{
+    padding: 5px;
+}

@@ -1,0 +1,1724 @@
+/* BODY RISERVATA AFFILIATO */
+body{
+    background-color: whitesmoke;
+}
+
+.box-yellow{
+    background-color: yellow;
+    border: solid grey 1px;
+    text-align: center;
+}
+
+div.message-info.bg-warning.text-center{
+    padding: 0;
+    margin:0;
+}
+
+div.message-info>h3{
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: yellow;
+    border: solid grey 1px;
+}
+
+button.btn.btn-default,
+button.btn.btn-primary,
+button.btn.btn-warning,
+button.btn.btn-danger,
+button.btn.btn-success,
+button.btn.btn-info{
+    border-radius: 0;
+    box-shadow: 1px 1px 1px #888888;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+button.btn.glyphicon{
+    padding: 0;
+    border: 0;
+
+}
+
+h2.bold,h3.bold,h4.bold,h5.bold{
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+/*  Riview bottom code */
+
+div.container-fluid.risaffiliato-container{
+    padding-left: 1em;
+}
+div.container-fluid.risaffiliato-container>div.row{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+div.row>div,div.row>span,div.col-xs-9.col-sm-9.col-md-9.col-lg-9>div.row>div{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Menu Area Riservata */
+
+
+#menu-arearisaffiliato{
+    color:white;
+    border:1px solid #cccccc;;
+    padding: 0;
+    margin-left: 0; 
+}
+div.left-navbar-header p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#mess-pub-risaffiliato ul li{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#mess-pub-risaffiliato ul li:hover{
+    background-color: white;
+    text-decoration:#30437b;
+
+}
+
+#menu-arearisaffiliato ul li a{
+    padding-left: 1em;
+    padding-right: 0;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+#menu-arearisaffiliato .divider{
+    border-color:#cccccc;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    alignment-adjust: central;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+/* end of ==  Menu Area Riservata */
+
+div.container-fluid.risaffiliato-container>div.row>div.col-xs-9.col-sm-9.col-md-9.col-lg-9>h3,
+div.container-fluid.risaffiliato-container>div.row>h3{
+    background-color: yellow;
+    text-align: center;
+    border: solid gray 1px;
+    padding: 5px;
+    margin-top: 0;
+}
+
+span{
+    display: inline-block;
+}
+div.table-bordered{
+    padding: 10px;
+    min-height: 35em;
+    margin-top:1em;
+    border-color:#cccccc;
+    margin-bottom: 2em;
+}
+
+/* === table Gestione Fotocopie Clienti 7.5=== */
+
+#tbgsfotclaffiliato{
+    border:gray;
+    border-style:solid;
+    border-width: 1px;
+}
+
+#tbgsfotclaffiliato caption{
+    padding-bottom: 1em;
+    color: black;
+    font-weight:600;
+}
+
+#tbgsfotclaffiliato thead tr th{
+
+    border-left-style:hidden;
+    border-right-style: hidden;
+    border-top-style: hidden;
+    border-bottom-color: gray;
+    border-bottom-width: 1px;
+
+
+}
+
+#tbgsfotclaffiliato caption button{
+    float: right;
+}
+
+#tb-gs-fot-cl{
+    border:gray;
+    border-style:solid;
+    border-width: 1px;
+    min-height: 30em;
+    background-color: white;
+    padding-bottom: 3em;
+}
+#tbgsfotclaffiliato tbody tr td span a{
+    color:black;
+    text-decoration: underline;
+    align-items: center;
+}
+
+
+
+#tbgsfotclaffiliato tbody tr td{
+    border: gray;
+    border-style:solid;
+    border-width: 1px;
+    /*    margin-left: 2em;*/
+    min-height: 30em;
+} 
+
+
+/*end of ===  table Gestione Fotocopie Clienti=== */
+
+
+
+
+/* == Gestione Structura Risaffiliato== */
+
+div.form-group.col-xs-6.col-sm-6.col-md-6.col-lg-6{
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+form#frm-contact.form{
+    margin-top: 15px;
+}
+
+div.form-group.col-xs-6.col-sm-6.col-md-6.col-lg-6:last-child{
+    padding-right:  0;
+    margin-top: 10px
+} /* FAX */
+
+/* form with checkbox and price */
+label.checkbox-inline{
+    padding-left: 0;
+    font-size:12px;
+
+}
+
+div.form-group.col-xs-8.col-sm-8.col-md-8.col-lg-8{
+    padding-left: 0;
+    padding-right: 0;
+}
+div.form-group.col-xs-8.col-sm-8.col-md-8.col-lg-8>div>input{
+    padding-left: 0;
+    padding-right: 0;
+    width: 35px;
+    height: 20px;
+    margin-top: 0px;
+    margin-left: 5px;
+    float: right;  
+}
+
+div.form-group.col-xs-8.col-sm-8.col-md-8.col-lg-8>div{
+    font-size: 12px;
+
+    font-weight: 200;
+    text-align: right;
+    margin-right: 5px;
+}
+
+div.checkbox.col-xs-4.col-sm-4.col-md-4.col-lg-4{
+    padding-right: 0;
+    margin-top: 0;
+}
+
+div#servizi{
+    overflow-y:scroll;
+    border: 1px solid #cccccc; 
+    background-color: white;
+    height: 213px;
+    padding-top: 15px;
+    margin-top: 0;
+    margin-left: 10px;
+}
+div.form-group.servizi.col-xs-6.col-sm-6.col-md-6.col-lg-6{
+    margin-top: 0px;
+    padding-right: 0; 
+
+}
+
+input#inlineCheckbox{
+    margin-top: 2px;    
+}
+
+div#ges-structura{
+    border: 1px solid #cccccc;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+form#frm-services>h5{
+    font-weight:bold;  
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+form.frm-contact.form{
+    padding-left: 15px;
+}
+/* Selezione Foto == Gestione Structura Risaffiliato== */
+div#img-group{
+    padding: 15px;
+    margin-top: 40px;
+}
+
+div.col-xs-3.col-sm-3.col-md-1.col-lg-1{
+    padding-left: 0;
+}
+
+div.col-xs-5.col-sm-4.col-md-2.col-lg-2>h5{
+    font-weight:bold;  
+    font-size: 14px;
+}
+
+div.col-xs-4.col-sm-3.col-md-2.col-lg-1>button.btn.btn-secondary.btn-sm.btn-file,
+div.col-xs-5.col-sm-6.col-md-3.col-lg-2>button.btn.btn-secondary.btn-sm{
+    border-radius: 0;
+    box-shadow: 1px 2px 2px #888888;
+    border-color: gray;
+    width: 100%;
+    color: black;
+    font-size: 14px;
+
+}
+
+div.col-xs-4.col-sm-3.col-md-2.col-lg-1>button.btn.btn-secondary.btn-sm.btn-file{
+    float: right;
+    min-width: 110px;
+}
+div.col-xs-5.col-sm-6.col-md-3.col-lg-2>button.btn.btn-secondary.btn-sm{
+    min-width: 170px;
+}
+
+div.col-xs-5.col-sm-6.col-md-3.col-lg-2{
+    padding-left: 5px;   
+}
+div.col-xs-4.col-sm-3.col-md-2.col-lg-1{
+    padding-right: 5px;
+}
+
+div#img-div-holder{
+    margin-top: 30px;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    height: 340px;
+    overflow-y: scroll;
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+div.checkbox.checkbox.col-xs-6.col-sm-6.col-md-3.col-lg-3{
+
+}
+div.checkbox.checkbox.col-xs-6.col-sm-6.col-md-3.col-lg-3>label>input#inlineCheckbox{
+    height: 10px; /* height must be 0 or to hide, after set code to border image when checked */
+    margin-left: 0;
+}
+div#img-div-holder>div.checkbox.checkbox.col-xs-6.col-sm-6.col-md-3.col-lg-3{
+    min-height: 150px;
+    margin-top: 3px;
+    padding: 5px;
+    border: 1px solid #cccccc; /* boorder to be deleted */
+}
+
+div.box-border{
+    border-color: #cccccc;
+    padding: 15px;
+}
+div.box-border>div.row{
+
+    padding: 15px;
+}
+div.box-border>div.row>div{
+    padding-left: 0;
+    padding-right: 0;
+}
+/* Gestione Aule */
+div#gest-aule{
+
+    margin: 20px 0;
+
+}
+
+div.box-border>table, div.box-border>table>caption{
+    background-color: white;
+    padding: 10px 0;
+}
+
+caption>span>button.btn-secondary.btn-sm{
+    border-radius: 0;
+    box-shadow: 1px 2px 2px #888888;
+    border-color: gray;
+    color: black;
+    margin-top: 5px;
+    min-width: 100px;
+    color: black;
+    font-size: 14px;
+}
+
+tr>td.col-xs-4.col-sm-4.col-md-4.col-lg-4,
+tr>td.col-xs-3.col-sm-3.col-md-3.col-lg-3,
+tr>td.col-xs-2.col-sm-2.col-md-2.col-lg-2
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+tr>td.col-xs-4.col-sm-4.col-md-4.col-lg-4,
+tr>td.col-xs-3.col-sm-3.col-md-3.col-lg-3,
+tr>td.col-xs-2.col-sm-2.col-md-2.col-lg-2{
+    border-right-style:hidden;
+}
+tr>td.col-xs-3.col-sm-3.col-md-3.col-lg-3:last-child{
+    padding-left: 0;
+    padding-right: 0;
+
+}
+tr>td>span.col-xs-1.col-sm-1.col-md-1.col-lg-1{
+    padding: 5px;
+    width: 50px;
+}
+
+tbody>tr>td>span.col-xs-1.col-sm-1.col-md-1> a{
+    color:black;
+    text-decoration: underline;     
+}
+
+
+/* END == Gestione Aule */
+
+/* END == Selezione Foto == Gestione Structura Risaffiliato== */
+
+
+
+/* 7.4 = * Modifica Aula */
+form#modal-body-frm>span.form-group.col-xs-6.col-sm-6.col-md-6.col-lg-6{
+    padding-left: 0px;     
+}
+
+form#modal-frm-conf-charecteristiche{
+    padding-left: 0;
+}
+form#modal-frm-conf-charecteristiche>div.box-border,
+form#modal-frm-caratt-principali>div.box-border,
+form#modal-frm-caratt-sec>div.box-border
+{
+    overflow-y: scroll;
+    border: 1px solid #cccccc;
+    background-color: white;
+    height: 130px;
+    margin-top: 0;
+    padding: 5px;
+}
+
+form#modal-frm-conf-charecteristiche>div.box-border>div#one-configurazione{
+    padding-top: 5px;
+    padding-left: 0;
+}
+form#modal-frm-conf-charecteristiche>div.box-border>div#one-configurazione>div.checkbox.col-xs-6.col-sm-6.col-md-6.col-lg-6{
+    margin-bottom: 0;
+}
+
+div.form-group.col-xs-6.col-sm-6.col-md-5.col-lg-4.col-md-push-1.col-lg-push-2{
+    text-align: right;
+    margin-top: 0px;
+    font-size: smaller;
+    font-style: normal;
+    font-weight: 200;  
+    margin-bottom: 0;
+} 
+
+form#modal-frm-conf-charecteristiche>div>div>div>label.checkbox-inline,
+form#modal-frm-caratt-principali>div>div>label.checkbox-inline,
+form#modal-frm-caratt-sec>div>div>label.checkbox-inline{
+    margin-left: 25px;
+    margin-bottom: 10px;
+    font-size: 14px;
+
+}
+
+form#modal-frm-conf-charecteristiche>h5,
+form#modal-frm-caratt-principali>h5,
+form#modal-frm-caratt-sec>h5
+{
+    font-weight:bold;  
+    font-size: 14px;
+
+}
+
+div.box-border>div>div.checkbox.col-xs-6.col-sm-6.col-md-6.col-lg-6{
+    padding-left: 0;
+}
+
+div.box-border>div>div.form-group.col-xs-6.col-sm-6.col-md-6.col-lg-6{ 
+    margin-top: 0px;
+    font-size: smaller;
+    font-style: normal;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+
+div.box-border>div>div>input{
+    padding-left: 0;
+    padding-right: 0;
+    width: 35px;
+    height: 20px;
+    margin-top: 0px;
+    margin-left: 5px;
+    float: right;
+}
+/* END of = 7.4 = * Modifica Aula */
+
+
+/* Riepilogo Risaffiliato */
+div#frm-gest-structura>div.row{
+    padding-top: 0;
+}
+
+div#frm-gest-structura.box-border{
+    margin: 10px 0;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+div#frm-gest-structura.box-border>h5{
+    font-weight:bold;  
+    font-size: 15px;
+    font-family:sans-serif;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+
+div#frm-gest-structura.box-border
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+div#frm-gest-structura.box-border>div.row>nav{
+    float: right;
+}
+
+div#frm-gest-structura.box-border>div.row>nav>ul>li>a.page-link{
+    border: 0;
+    background-color: whitesmoke;
+    text-decoration: underline;
+    color: black;
+}
+div#frm-gest-structura.box-border>div.row>nav>ul>li>a.page-link:last-child{
+    padding-right: 0;
+}
+
+div#frm-gest-structura.box-border>div.row>table{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+div#frm-gest-structura.box-border>div.row>table>thead,
+div#frm-gest-structura.box-border>div.row>table>thead>tr>th{
+    background-color: whitesmoke;
+    border-top: hidden;
+    border-left: hidden;
+    border-right:  hidden;
+}
+
+div#frm-gest-structura.box-border>div.row>table>thead>tr>th,
+div#frm-gest-structura.box-border>div.row>table>tbody>tr>td{
+    text-align: right;
+    padding-right: 10px;  
+}
+
+div#frm-gest-structura.box-border>div.row>table>tbody>tr>td.row-span{
+    width: 15%;
+    text-align: center;
+    padding-left: 10px;
+}
+
+div#frm-gest-structura.box-border>div>div>div>span{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+div#frm-gest-structura.box-border>div>div>div>span>h5{
+    font-weight: bold
+}
+
+div#frm-gest-structura.box-border>div>div>div{
+    height: 35px;
+}
+div#frm-gest-structura.box-border>div>div>div.box-border{
+    height: 140px;
+    padding: 0; 
+    overflow-y: scroll;
+    background-color: white;
+}
+
+div#frm-gest-structura.box-border>div>div>form>div.form-group{
+    padding-top: 0px;
+    padding-left: 10px;
+}
+
+div#frm-gest-structura.box-border>div>div>form>div.form-group>label{
+    margin-bottom: 15px;
+}
+div#orari-selezionati{
+    padding:10px 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+div.col-xs-3.col-sm-3.col-md-3.col-lg-3.glyphicon.glyphicon-remove{
+    margin-top: 7px;
+    width: 25px;
+    float: right;
+}
+div#orari-selezionati>div:first-child{
+    padding-left: 5px;
+
+}  
+
+
+span>button.btn-default.btn-sm{
+    border-radius: 0;
+    box-shadow: 1px 1px 1px #888888;
+    border-color: #cccccc;
+    margin-top: 5px;
+    margin-right: 2px;
+    padding-bottom: 1px;
+    min-width: 140px;
+    font-size: 12px;
+    float: right;
+    font-size: 13px;
+    color: black;
+
+
+}
+
+button.btn.btn-default.btn-sm.col-xs-4.col-sm-4.col-md-3.col-lg-3{
+    min-height: 50px;
+    border-radius: 0;
+    box-shadow: 1px 1px 1px #888888;
+    border-color: #cccccc;
+    margin-top: 5px;
+    font-size: 13px;
+    color: black;
+    float: right;
+    margin: 0 5px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/* Prossime Prenotazioni = Riepilogo */
+div.col-xs-9.col-sm-9.col-md-9.col-lg-9>div.row>div.box-border{
+    margin: 10px;
+}
+div.col-xs-9.col-sm-9.col-md-9.col-lg-9>div.row>div.box-border>table.table-bordered{
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+div.col-xs-9.col-sm-9.col-md-9.col-lg-9>div.row>div.box-border>table.table-bordered>thead>tr>th{
+    border-top: hidden;
+    border-left: hidden;
+    border-right:  hidden;   
+    padding-left: 0;
+}
+div.col-xs-9.col-sm-9.col-md-9.col-lg-9>div.row>div.box-border>table.table-bordered>tbody>tr>td{
+    padding-left: 5px;
+
+}
+
+div.row>div.box-border>h5{
+    font-weight: bold;
+}
+
+
+
+/* END  = Prossime Prenotazioni = Riepilogo */
+
+/* END = Riepilogo Risaffiliato */
+
+
+/* Carrello Popup 
+div#tuo-carrello>div.modal-body{
+    height: 500px;
+    margin-left: 0;
+}
+
+div#tuo-carrello>div.modal-body>div.row>h3{
+    background-color: white;
+    text-align: left;
+    border: 0;
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 30px;
+}
+
+div#tuo-carrello>div.modal-body>div.row>h4{
+    font-weight:700;
+}
+
+div#tuo-carrello>div.modal-body>div.row>div.col-xs-5.col-sm-5.col-md-5.col-lg-5,
+div#tuo-carrello>div.modal-body>div.row>div.col-xs-3.col-sm-3.col-md-3.col-lg-3,
+div#tuo-carrello>div.modal-body>div.row>div.col-xs-2.col-sm-2.col-md-2.col-lg-2,
+div#tuo-carrello>div.modal-body>div.row>div.col-xs-1.col-sm-1.col-md-1.col-lg-1{
+    padding: 0;
+}
+
+div#tuo-carrello>div.modal-body>div.row>div.col-xs-5.col-sm-5.col-md-5.col-lg-5>h5,
+div#tuo-carrello>div.modal-body>div.row>div.col-xs-3.col-sm-3.col-md-3.col-lg-3>h5,
+div#tuo-carrello>div.modal-body>div.row>div.col-xs-2.col-sm-2.col-md-2.col-lg-2>h5,
+div#tuo-carrello>div.modal-body>div.row>div.col-xs-1.col-sm-1.col-md-1.col-lg-1>h5{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+div#tuo-carrello>div.modal-body>div.row>div.col-xs-3.col-sm-3.col-md-3.col-lg-3>div.box-border>h5,
+div#tuo-carrello>div.modal-body>div.row>div.col-xs-2.col-sm-2.col-md-2.col-lg-2>div.box-border>h5,
+div#tuo-carrello>div.modal-body>div.row>div.col-xs-1.col-sm-1.col-md-1.col-lg-1>div.box-border>h5{
+    text-align: center; 
+    padding-right: 5px;
+}
+
+div#tuo-carrello>div.modal-body>div.row>div.col-xs-2.col-sm-2.col-md-2.col-lg-2>div.box-border>h5,
+div#tuo-carrello>div.modal-body>div.row>div.col-xs-1.col-sm-1.col-md-1.col-lg-1>div.box-border>h5{
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+div#tuo-carrello>div.modal-body>div.row>div.col-xs-1.col-sm-1.col-md-1.col-lg-1>button.btn.btn-default.btn-sm{
+    border: 0;
+    margin-top: 30px;
+    padding-top: 0px;
+    font-size:large;
+}
+
+div#tuo-carrello>div.modal-body>div.row>div>div.box-border{
+    padding: 5px;
+    height: 30px;
+}
+
+div#tuo-carrello>div.modal-body>div.row>div>div.box-border>h5{
+    margin: 0;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+
+select#select-rate{
+    height: 20px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 2px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    box-shadow: 1px 1px 1px #888888;
+    background-color:whitesmoke;
+    color: black;
+    border-radius: 0;
+}
+
+div#tuo-carrello>div.modal-body>div>span.col-xs-6.col-sm-6.col-md-6.col-lg-6.box-border>h4{
+    background-color: yellow;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 19px;
+    min-height: 100px;
+}
+div#tuo-carrello>div.modal-body>div>span>div>h3{
+    background-color: white;
+    border: 0;  
+}
+
+div#tuo-carrello>div.modal-body>div>span>div.col-xs-9.col-sm-9.col-md-9.col-lg-9>h4,
+div#tuo-carrello>div.modal-body>div>span>div.col-xs-9.col-sm-9.col-md-9.col-lg-9>h3,
+div#tuo-carrello>div.modal-body>div>span>div.col-xs-3.col-sm-3.col-md-3.col-lg-3>h4,
+div#tuo-carrello>div.modal-body>div>span>div.col-xs-3.col-sm-3.col-md-3.col-lg-3>h3{
+    text-align: right;
+    padding-right: 5px;
+    font-weight: 600;
+}
+
+div#tuo-carrello>div.modal-body>div>span.col-xs-6.col-sm-6.col-md-6.col-lg-6.box-border{
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 80px;
+}
+
+div#tuo-carrello>div.modal-body>div.row{
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+
+div#tuo-carrello>div.modal-body>div.row:last-child{
+    margin-right: 35px;
+}
+
+div#tuo-carrello>div>div>div>button.btn.btn-default.btn-md{
+    background-color: rgba(226,193,6,0.9);
+    float: right;
+    margin-top: 25px;
+    width: 120px;
+    border-radius: 0;
+    box-shadow: 1px 1px 1px #888888;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+
+ END = Carrello Popup */
+
+
+/* Elenco Ordini 4.1 */
+div.col-xs-3.col-sm-3.col-md-3.col-lg-3>div.box-border.filt-ordini{
+    padding:0;
+    min-width: 180px;
+    height: 370px;
+    background-color: white;
+}
+
+div.col-xs-3.col-sm-3.col-md-3.col-lg-3>div.box-border.filt-ordini>div.row{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+
+div.col-xs-3.col-sm-3.col-md-3.col-lg-3>div.box-border.filt-ordini>div.row>h4{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #30437d;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    color: white;
+    text-align: center;
+}
+
+div.col-xs-3.col-sm-3.col-md-3.col-lg-3>div.box-border.filt-ordini>div.row>h5 {
+    font-weight: bold;
+    padding-left: 5px;
+    margin-top: 20px;
+}
+
+div.col-xs-3.col-sm-3.col-md-3.col-lg-3>div.box-border.filt-ordini>div.row>span{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+div.col-xs-3.col-sm-3.col-md-3.col-lg-3>div.box-border.filt-ordini>div.row>span>label {
+    font-weight: 400;
+}
+
+div.col-xs-3.col-sm-3.col-md-3.col-lg-3>div.box-border.filt-ordini>div.row>span>input {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+div.col-xs-3.col-sm-3.col-md-3.col-lg-3>div.box-border.filt-ordini>div.row>form {
+    padding-left: 15px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+
+div.col-xs-3.col-sm-3.col-md-3.col-lg-3>div.box-border.filt-ordini>div.row>form>label>input {
+    width: 18px;
+    height: 18px;
+    margin-top: 0;
+}
+div.col-xs-3.col-sm-3.col-md-3.col-lg-3>div.box-border.filt-ordini>div.row>form>label.checkbox-inline{
+    font-size: 14px   
+} 
+
+div.col-xs-3.col-sm-3.col-md-3.col-lg-3>div.box-border.filt-ordini>div.row>button.btn.btn-default.btn-sm {
+    float: right;
+    margin-right: 5px;
+    border-radius: 0;
+    box-shadow: 1px 1px 1px #888888;
+    border-color: #cccccc;
+    font-size: 13px;
+    color: blue;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+div.col-xs-9.col-sm-9.col-md-9.col-lg-9.messag-spiega>div.row{
+    margin-bottom: 40px;
+}
+
+div.col-xs-9.col-sm-9.col-md-9.col-lg-9.messag-spiega>div.row>span{
+    margin-top: 20px;
+    padding: 0;
+}
+div.col-xs-9.col-sm-9.col-md-9.col-lg-9.messag-spiega>div.row>span.col-xs-2.col-sm-2.col-md-2.col-lg-2.inline-block{
+    display: inline-block;
+}
+
+div.col-xs-9.col-sm-9.col-md-9.col-lg-9.messag-spiega>div.row>span.col-xs-2.col-sm-2.col-md-2.col-lg-2>h5{
+    font-weight: bold;
+}
+
+div.col-xs-9.col-sm-9.col-md-9.col-lg-9.messag-spiega>div.row>span.col-xs-8.col-sm-8.col-md-8.col-lg-8>h4{
+    font-size:x-large;
+    font-weight: bold;
+}
+
+div.col-xs-9.col-sm-9.col-md-9.col-lg-9.messag-spiega>div.row>span.col-xs-2.col-sm-2.col-md-2.col-lg-2>h5{
+    text-align: right;
+}
+
+div.col-xs-9.col-sm-9.col-md-9.col-lg-9.messag-spiega>div.row>span.col-xs-2.col-sm-2.col-md-2.col-lg-2:last-child{
+    float: right;
+    width: 110px;
+    margin-right: 20px;
+}
+
+table#tb-ordini>thead>tr>th{
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+}
+
+table#tb-ordini>tbody>tr>td{
+    border: 1px solid #cccccc;
+}
+
+table#tb-ordini>tbody>tr>td,
+table#tb-ordini>thead>tr>th{
+    padding: 0 0 0 2px;
+    margin: 1px;
+}
+
+table#tb-ordini>tbody>tr>td.col-xs-2.col-sm-2.col-md-2.col-lg-2>h4,
+table#tb-ordini>tbody>tr>td.col-xs-2.col-sm-2.col-md-2.col-lg-2>h5{
+    width: 100%;
+    text-align: right;
+    padding-right: 10px;
+}
+
+
+table#tb-ordini>tbody>tr>td>span>a,
+table#tb-ordini>tbody>tr>td>a{
+    text-decoration: underline;
+    color: black;
+}
+table#tb-ordini>tbody>tr>td>span{
+    display: inline-block;
+}
+
+button.btn.btn-default.btn-sm.glyphicon.glyphicon-question-sign{
+    float: right;
+    margin-right: 3em;
+    font-size: large;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 0;
+    background-color: whitesmoke;
+}
+
+/* POPUP Singolo Ordine 4.2= Vizualizza Singolo Ordine*/
+
+div#viz-singolo-ordine>div.modal-body{
+    margin-right: 20px;
+}
+
+div#viz-singolo-ordine>div.modal-body>div.row{
+    padding-top: 20px;
+}
+
+div#viz-singolo-ordine>div>div>button.btn.btn-default.btn-sm.glyphicon-remove-sign{
+    padding-right: 0px;
+    padding-left: 0px;
+    position: fixed;
+    top: 15px;
+    right: 5px;
+    font-size: xx-large;
+    width: 40px;
+    height: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;   
+    border-radius:50%;    
+}
+
+table#tb-sing-ordine>thead>tr>th{
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+}
+
+table#tb-sing-ordine>tbody>tr>td{
+    border: 1px solid #cccccc;
+}
+
+div#viz-singolo-ordine.modal-content>div.modal-body>div.row>div.box-border>h3{
+    border: 0;
+    background-color: white;
+    text-align: left;
+    padding-bottom: 20px;
+}
+div#viz-singolo-ordine.modal-content>div.modal-body>div.row>div.box-border>h4 {
+    padding-left: 5px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+table#tb-sing-ordine>tbody>tr>td:first-child>h4,
+table#tb-sing-ordine>tbody>tr>td:first-child>h5{
+    font-weight: bold;
+}
+
+table#tb-sing-ordine>tbody>tr>td:last-child>h4{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+table#tb-sing-ordine>tbody>tr>td:last-child{
+    text-align: center;
+}
+
+/* = END = POPUP Singolo Ordine 4.2= Vizualizza Singolo Ordine*/
+
+
+/* POPUP Modifica Ordine 4.3 */
+/* POPUP Modifica Ordine - part 1 */
+div.modal-dialog.modal-lg{
+    width: 78vw;
+}
+
+div#sel-prenot-modifica>div.modal-body{
+    margin-right: 20px;
+}
+
+div#sel-prenot-modifica>div.modal-body>div.row{
+    padding-top: 15px;
+}
+
+div#sel-prenot-modifica>div.modal-body>div.row>h3{
+    border: 0;
+    background-color: white;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+div#sel-prenot-modifica>div.modal-body>div.row>h4 {
+    padding-left: 5px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+div#sel-prenot-modifica>div>div>button.btn.btn-default.btn-md{
+    position: fixed;
+    bottom: 20px;
+    right: 3em; 
+    width: 90px; 
+    border-radius:0;
+    font-weight:500; 
+    font-size: 16px;
+    background-color: whitesmoke;
+    box-shadow: 2px 5px 5px #888888;
+
+}
+
+table#tb-prenot-modifica{
+    margin-bottom: 70px;
+}
+
+table#tb-prenot-modifica>thead>tr>th{
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+}
+
+table#tb-prenot-modifica>tbody>tr>td{
+    border: 1px solid #cccccc;
+}
+
+table#tb-prenot-modifica>tbody>tr>td:first-child>h4,
+table#tb-prenot-modifica>tbody>tr>td:first-child>h5{
+    font-weight: bold;
+}
+
+table#tb-prenot-modifica>tbody>tr>td.prezzo>h4{
+    font-weight: bold;
+    font-size: 22px;
+}
+table#tb-prenot-modifica>tbody>tr>td.prezzo>h4,
+table#tb-prenot-modifica>tbody>tr>td.prezzo>h5{
+    text-align: center;  
+}
+
+table#tb-prenot-modifica>tbody>tr>td:last-child{
+    border-bottom: hidden;
+    border-top: hidden;
+    border-right: hidden;
+
+}
+
+a.glyphicon.glyphicon-pencil{
+    font-size: 24px;
+}
+/* END POPUP Modifica Ordine - part 1 */
+/* POPUP Modifica Ordine - part 2= modifica prenotazione */
+div#modifica-prenotazione.modal-content>div.modal-body>div.row>div.row{
+    margin-right: 0;
+}
+
+div#modifica-prenotazione.modal-content>div.modal-body>div.row>div.row>div.col-xs-6.col-sm-6.col-md-6.col-lg-6{
+    margin-top: 20px;   
+    padding-left: 0px;   
+}
+div#modifica-prenotazione.modal-content>div.modal-body>div.row>div.row>div.col-xs-6.col-sm-6.col-md-6.col-lg-6>h3{
+    margin-top: 10px;
+}
+
+div#modifica-prenotazione.modal-content>div.modal-body>div.row>div.row>div.col-xs-6.col-sm-6.col-md-6.col-lg-6:last-child{
+    text-align: right;
+    padding-right: 20px;
+
+}
+
+div#modifica-prenotazione.modal-content>div.modal-body>div.row>div.row>div.col-xs-6.col-sm-6.col-md-6.col-lg-6>h4{ 
+    font-size: 18px;
+    font-weight: 600;
+}
+
+div#modifica-prenotazione.modal-content>div.modal-body>div.row>div.row>div.col-xs-4.col-sm-4.col-md-4.col-lg-4{
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+div#modifica-prenotazione.modal-content>div.modal-body>div.row>div.row>div.col-xs-4.col-sm-4.col-md-4.col-lg-4>h4{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+div#modifica-prenotazione.modal-content>div.modal-body>div.row>div.row>div.col-xs-4.col-sm-4.col-md-4.col-lg-4>select.selectpicker{
+    height: 27px;
+    width: 70%;
+    min-width: 142px;
+    background-color: whitesmoke;
+    font-size: 16px;
+    box-shadow: 2px 5px 5px #888888;
+    padding-left: 5px;
+    float: right;
+}
+
+div#modifica-prenotazione.modal-content>div.modal-body>div.row>div.row>table.table-bordered{
+    width: 100%;
+}
+div#modifica-prenotazione.modal-content>div.modal-body>div.row>div.row>table.table-bordered>caption>h4{
+    color: black;
+    font-weight: bold
+}
+
+div#modifica-prenotazione.modal-content>div.modal-body>div.row>div.row>table.table-bordered>thead>tr>th{
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+}
+
+div#modifica-prenotazione.modal-content>div.modal-body>div.row>div.row>table.table-bordered>tbody>tr>td{
+    text-align: center;
+    font-size: 16px;
+}
+
+div#modifica-prenotazione.modal-content>div.modal-body>div.row>div.row>table.table-bordered>tbody>tr>td>h5{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+div#modifica-prenotazione.modal-content>div.modal-body>div.row>div.row>table.table-bordered>tbody>tr>td.tuo-prenot>span.glyphicon.glyphicon-flag{    
+    float: left;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+div#modifica-prenotazione.modal-content>div.modal-body>div.row>div.row>table.table-bordered>tbody>tr>td.nuova-sel>div.glyphicon.glyphicon-flag{
+    float: right;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+
+
+div#modifica-prenotazione.modal-content>div.modal-body>div.row>div.row>table.table-bordered>tbody>tr>td.no-prezzo{
+    background-color: whitesmoke;   
+}
+
+div#modifica-prenotazione.modal-content>div.modal-body>div.row>div.row>table.table-bordered>tbody>tr>td.tuo-prenot{
+    background-color: gray;  
+    color: white; 
+}
+
+div#modifica-prenotazione.modal-content>div.modal-body>div.row>div.row>nav{
+    float: right;
+    max-width: 460px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+div#modifica-prenotazione.modal-content>div.modal-body>div.row>div.row>nav>ul>li.page-item>a.page-link{
+    border: 0;
+    color: black;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+div#modifica-prenotazione.modal-content>div.modal-body>div.row>div.row>div.col-xs-12.col-sm-7.col-md-6.col-lg-4{
+    float: right;
+}
+
+div#modifica-prenotazione.modal-content>div.modal-body>div.row>div.row>div.col-xs-12.col-sm-7.col-md-6.col-lg-4>span{
+    height: 35px;
+    padding-right: 0;
+}
+div#modifica-prenotazione.modal-content>div.modal-body>div.row>div.row>div.col-xs-12.col-sm-7.col-md-6.col-lg-4>span>button{
+    border-radius: 0;
+    font-size: 16px;
+    background-color: whitesmoke;
+    box-shadow: 2px 5px 5px #888888;
+    padding: 5px;
+    width: 120px;
+    height: 30px;
+    float: right;
+}
+
+/* END POPUP Modifica Ordine - part 2= modifica prenotazione */
+
+/* END POPUP Modifica Ordine 4.3 */
+
+
+/* Modifica Ordine 4.4 part2 (popup)*/
+
+
+table#tb-prenot-modifica2,
+table#tb-prenot-anulate{
+    margin-bottom: 40px;
+}
+
+table#tb-prenot-modifica2>thead>tr>th,
+table#tb-prenot-anulate>thead>tr>th{
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+}
+
+table#tb-prenot-modifica2>tbody>tr>td,
+table#tb-prenot-anulate>tbody>tr>td{
+    border: 1px solid #cccccc;
+}
+
+table#tb-prenot-modifica2>tbody>tr>td:first-child,
+table#tb-prenot-anulate>tbody>tr>td:first-child{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+table#tb-prenot-modifica2>tbody>tr>td:first-child>h4,
+table#tb-prenot-anulate>tbody>tr>td:first-child>h4{
+    font-size: 16px;
+}
+
+table#tb-prenot-modifica2>tbody>tr>td:first-child>h4,
+table#tb-prenot-modifica2>tbody>tr>td:first-child>h5,
+table#tb-prenot-anulate>tbody>tr>td:first-child>h4,
+table#tb-prenot-anulate>tbody>tr>td:first-child>h5{
+    font-weight: bold;
+}
+
+table#tb-prenot-modifica2>tbody>tr>td.prezzo>h4,
+table#tb-prenot-anulate>tbody>tr>td.prezzo>h4{
+    font-weight: bold;
+    font-size: 19px;
+}
+table#tb-prenot-modifica2>tbody>tr>td.prezzo>h4,
+table#tb-prenot-modifica2>tbody>tr>td.prezzo>h5,
+table#tb-prenot-anulate>tbody>tr>td.prezzo>h4,
+table#tb-prenot-anulate>tbody>tr>td.prezzo>h5{
+    text-align: center;  
+}
+
+table#tb-prenot-modifica2>tbody>tr>td:last-child,
+table#tb-prenot-anulate>tbody>tr>td:last-child{
+    border-bottom: hidden;
+    border-top: hidden;
+    border-right: hidden;
+
+}
+
+div#cart-modifiche>h3{
+    padding-top: 15px;
+}
+
+table#tb-prenot-modifica2>tbody>tr>td>button.btn.btn-default.btn-sm.glyphicon-remove-sign,
+table#tb-prenot-anulate>tbody>tr>td>button.btn.btn-default.btn-sm.glyphicon-remove-sign{
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: large;
+    width: 30px;
+    height: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;   
+    border-radius:50%;       
+}
+
+table#tb-prenot-modifica2>tbody>tr>td>select.selectpicker,
+table#tb-prenot-anulate>tbody>tr>td>select.selectpicker{
+    width: 88%;
+    background-color: whitesmoke;
+    font-size: 15px;
+}
+
+div#cart-modifiche>div>div>span{
+    padding-right: 0;
+}
+
+div#cart-modifiche>div>div>span.box-border{
+    width: 40%;
+    height: 172px;
+    background-color: yellow;
+}
+
+div#cart-modifiche>div>div>span>div.col-xs-9.col-sm-9.col-md-9.col-lg-9,
+div#cart-modifiche>div>div>span>div.col-xs-3.col-sm-3.col-md-3.col-lg-3{
+    text-align: right;
+    padding-right: 0;
+}
+
+div#cart-modifiche>div>div>span>div.col-xs-9.col-sm-9.col-md-9.col-lg-9>h4,
+div#cart-modifiche>div>div>span>div.col-xs-3.col-sm-3.col-md-3.col-lg-3>h4{
+    font-weight: 700;
+}
+
+div#cart-modifiche>div>div>div>button.btn.btn-default.btn-md{
+    background-color: rgba(226,193,6,0.9);
+    float: right;
+    margin-top: 25px;
+    margin-right: 5vw;
+    width: 120px;
+    border-radius: 0;
+    box-shadow: 1px 1px 1px #888888;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+button.btn.btn-default.btn-sm.glyphicon.glyphicon-question-sign.col-xs-3.col-sm-3.col-md-3.col-lg-3{
+    margin: 0;
+    width: 20px;
+    background-color: white;        
+}
+/* END = Modifica Ordine 4.4 part2 (popup)*/
+
+/* Modifica Ordine/3  4.5 Riepilogo Saldo Negativo */
+div.container-fluid.risaffiliato-container>div.row>div.col-xs-9.col-sm-9.col-md-9.col-lg-9{
+    padding-left: 0;
+}
+
+div.container-fluid.risaffiliato-container>div.row>h3.sconto>span:first-child{
+    float: left;
+}
+div.container-fluid.risaffiliato-container>div.row>h3.sconto>span:last-child{
+    float: right;
+}
+
+div.container-fluid.risaffiliato-container>div.row>h3.sconto>span>img.img-responsive{
+    width: 32px;
+}
+
+div.container-fluid.risaffiliato-container>div.row>div.col-xs-9.col-sm-9.col-md-9.col-lg-9.riep-sal-neg>div.row>h3.col-xs-6.col-sm-6.col-md-6.col-lg-6{
+    border: 0;
+    background-color: whitesmoke;
+    text-align: left;
+    margin-top: 0;
+}
+
+div.container-fluid.risaffiliato-container>div.row>div.col-xs-9.col-sm-9.col-md-9.col-lg-9.riep-sal-neg>div.row>button.btn-primary.btn-lg.col-xs-6.col-sm-6.col-md-6.col-lg-6{
+    float: right;
+    width: 40%;
+    height: 37px;
+    font-size: medium;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 0;  
+    box-shadow: 2px 5px 5px #888888;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+div.container-fluid.risaffiliato-container>div.row>div.col-xs-9.col-sm-9.col-md-9.col-lg-9.riep-sal-neg>div.row>div.box-border{
+    margin-right: 0;
+    min-height: 500px;
+}
+
+table#tb-prenot-anullati,
+table#tb-prenot-modif{
+    background-color: whitesmoke;
+}
+
+table#tb-prenot-anullati>tbody>tr>td,
+table#tb-prenot-modif>tbody>tr>td{
+    border: 0;
+}
+
+table#tb-prenot-anullati>tbody>tr>td.col-xs-3.col-sm-3.col-md-3.col-lg-3,
+table#tb-prenot-modif>tbody>tr>td.col-xs-3.col-sm-3.col-md-3.col-lg-3{
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+table#tb-prenot-anullati>tbody>tr>td.col-xs-3.col-sm-3.col-md-3.col-lg-3:last-child,
+table#tb-prenot-modif>tbody>tr>td.col-xs-3.col-sm-3.col-md-3.col-lg-3:last-child{
+    padding-right: 8vw;    
+}
+
+table#tb-prenot-anullati>tbody>tr>td.col-xs-3.col-sm-3.col-md-3.col-lg-3>h5,
+table#tb-prenot-modif>tbody>tr>td.col-xs-3.col-sm-3.col-md-3.col-lg-3>h5{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+div.box-border>div.col-xs-8.col-sm-8.col-md-8.col-lg-8.col-xs-offset-4.col-sm-offset-4.col-md-offset-4.col-lg-offset-4{
+    border-top: 2px black solid;
+    padding-right: 0;
+}
+
+div.box-border>div.col-xs-8.col-sm-8.col-md-8.col-lg-8.col-xs-offset-4.col-sm-offset-4.col-md-offset-4.col-lg-offset-4>div.col-xs-5.col-sm-5.col-md-5.col-lg-5{
+    padding-left: 0;
+    padding-right: 7vw;
+}
+
+div.box-border>div.col-xs-8.col-sm-8.col-md-8.col-lg-8.col-xs-offset-4.col-sm-offset-4.col-md-offset-4.col-lg-offset-4>div.col-xs-5.col-sm-5.col-md-5.col-lg-5>h3,
+div.box-border>div.col-xs-8.col-sm-8.col-md-8.col-lg-8.col-xs-offset-4.col-sm-offset-4.col-md-offset-4.col-lg-offset-4>div.col-xs-5.col-sm-5.col-md-5.col-lg-5>h5{
+    text-align: right;
+}
+
+div.box-border>div.col-xs-8.col-sm-8.col-md-8.col-lg-8.col-xs-offset-4.col-sm-offset-4.col-md-offset-4.col-lg-offset-4>div.col-xs-7.col-sm-7.col-md-7.col-lg-7{
+    padding-right: 0;
+}
+
+div.box-border>div.col-xs-8.col-sm-8.col-md-8.col-lg-8.col-xs-offset-4.col-sm-offset-4.col-md-offset-4.col-lg-offset-4>div.col-xs-7.col-sm-7.col-md-7.col-lg-7>h3{
+    text-align: right;
+}
+
+
+button.btn.btn-default.btn-sm.glyphicon.glyphicon-info-sign{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: medium;
+    border: 0;
+    background-color: whitesmoke;
+    float: right;
+}
+
+div.col-xs-3.col-sm-3.col-md-3.col-lg-3.riep-sal-neg>div.row>div.col-xs-5.col-sm-5.col-md-5.col-lg-5,
+div.col-xs-3.col-sm-3.col-md-3.col-lg-3.riep-sal-neg>div.row>div.col-xs-5.col-sm-5.col-md-5.col-lg-5,
+div.col-xs-3.col-sm-3.col-md-3.col-lg-3.riep-sal-neg{
+    padding-right: 0;
+    padding-left: 15px;
+}
+
+
+div.col-xs-3.col-sm-3.col-md-3.col-lg-3.riep-sal-neg>div.row>div.col-xs-5.col-sm-5.col-md-5.col-lg-5>select.selectpicker{
+    height: 24px;
+    background-color: whitesmoke;
+    font-size: 16px;
+    box-shadow: 2px 5px 5px #888888;
+    padding-left: 5px;
+    float: right;
+    width: 100%;
+    min-width: 70px;
+}
+
+div.col-xs-3.col-sm-3.col-md-3.col-lg-3.riep-sal-neg>div.row:last-child{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+div.col-xs-3.col-sm-3.col-md-3.col-lg-3.riep-sal-neg>div.row>div.box-border{
+    padding: 0;
+    min-width: 150px;
+    padding-bottom: 50px;
+
+}
+
+div.col-xs-3.col-sm-3.col-md-3.col-lg-3.riep-sal-neg>div.row>div.box-border>h4.head{
+    background-color: #30437d;
+    color: white;
+    margin:0;
+    text-align: center;
+    padding: 5px;
+}
+
+div.col-xs-3.col-sm-3.col-md-3.col-lg-3.riep-sal-neg>div.row>div.box-border>h5{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+div.col-xs-3.col-sm-3.col-md-3.col-lg-3.riep-sal-neg>div.row>div.box-border>h3{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 26px;
+}
+div.col-xs-3.col-sm-3.col-md-3.col-lg-3.riep-sal-neg>div.row>div.box-border>
+form>div.checkbox>label{
+    padding-left: 40px;
+    padding-right: 15px;
+    text-decoration: underline;
+}
+
+div.col-xs-3.col-sm-3.col-md-3.col-lg-3.riep-sal-neg>div.row>div.box-border>
+form>div.checkbox>label>input{
+    width: 15px;
+    height: 15px;
+}
+
+div.col-xs-3.col-sm-3.col-md-3.col-lg-3.riep-sal-neg>div.row>div.box-border>div>
+button.btn.btn-primary{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-width: 120px;
+    float: right;
+    border-radius: 0;
+    box-shadow: 2px 5px 5px #4268bb;
+}
+/* END = Modifica Ordine/3  4.5 Riepilogo Saldo Negativo */
+
+
+/* Modifica Ordine/4 - Stipula contratto */
+
+div#stipulaContratto>div.modal-body{
+    margin-right: 20px;
+}
+
+div#stipulaContratto>div.modal-body>div.row{
+    padding-top: 20px;
+}
+
+div#stipulaContratto>div>div>button.btn.btn-default.btn-sm.glyphicon-remove-sign{
+    padding-right: 0px;
+    padding-left: 0px;
+    position: fixed;
+    top: 15px;
+    right: 5px;
+    font-size: xx-large;
+    width: 40px;
+    height: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;   
+    border-radius:50%;   
+}
+
+div#stipulaContratto>div.modal-body>div.row>div.box-border>h3{
+    margin-top: 10px;
+    font-size: 2.5vw;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+div#stipulaContratto>div.modal-body>div.row>div.box-border>h5{
+    margin-top: 0px;
+    font-size: 2vw;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+div#stipulaContratto>div.modal-body>div.row>div.box-border>ol{
+    font-size: 1.7vw;
+    padding-left: 4vw;
+    font-weight: 600;
+    list-style-type: none;
+}
+
+div#stipulaContratto>div.modal-body>div.row>div.box-border>ol>li{
+    margin-bottom: 3vw;
+    counter-increment: step-counter;
+}
+
+div#stipulaContratto>div.modal-body>div.row>div.box-border>ol>li::before {
+    content: counter(step-counter);
+    margin-right: 1vw;
+    font-size: 2vw;
+    background-color:#ADA531;
+    color: white;
+    font-weight: bold;
+    padding: 5px 12px;
+    border-radius: 3px;
+    border-radius: 100%;
+}
+
+div#stipulaContratto>div.modal-body>div.row>div.box-border>ol>li>a{
+    color: black;
+    text-decoration: underline;
+}
+
+div#stipulaContratto>div.modal-body>div.row>div.box-border>ol>li>ul{
+    margin-top: 1.5vw;
+    font-size: 1.3vw;
+    font-weight: 500;
+    padding-left: 0;
+    list-style-type: none;
+    margin-left: 5vw;
+}
+
+div#stipulaContratto>div.modal-body>div.row>div.box-border>ol>li>ul>li{
+    margin-bottom: 1.5vw;
+}
+
+div#stipulaContratto>div.modal-body>div.row>div.box-border>ol>li>ul>li>span{
+    margin-right: 10px;
+}
+
+div#stipulaContratto>div.modal-body>div.row>div.box-border>ol>li>ul>li>span>img.img-responsive{
+    width: 1.7vw;
+    height: 1.6vw;
+}
+
+/* END = Modifica Ordine/4 - Stipula contratto */
+
+form>div>label>span{
+    padding-top: 10px;
+}
+
+form>div>label>span>img.img-responsive{
+    width: 25px;
+    height: 25px;
+}
+
+div.box-border>form>div.radio.col-xs-4.col-sm-4.col-md-4.col-lg-4,
+div.box-border>form>div.form-group.radio{
+    height: 30px;
+    background-color: whitesmoke;
+    min-width: 25px;
+    min-height: 25px;
+    max-height: 30px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+div.box-border>form>div.radio.col-xs-4.col-sm-4.col-md-4.col-lg-4>
+label>input{
+    margin-top: 20px;
+}
+
+.riepilogo-affiliato-image{
+    width:100px;
+    height: auto;
+}
+
+.riepilogo-affiliato-fascia-oraria{
+    width: 13%;
+    height: auto;
+}
+
+.riepilogo-affiliato-fascia-dispon{
+    width: 12%;
+    height: auto;
+}
+
+.riepilogo-affiliato-riga-dispon{
+    width: 100%;
+    height: auto;
+}
+
+.one-servis {
+    border-left-width: 5px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    height: auto;
+}
+
+.img-checkbox{
+    left : 30px; 
+}
+
+/*/////////////////////////////////////////////////////*/
+/*// Styles used by AngularJS ng-style*/
+/*// in Riepilogo Affiliato*/
+/*////////////////////////////////////////////////////*/
+.riepaff-disponibile{
+    background-color: white;
+}
+
+.riepaff-in-prenotazione{
+    background-color: orange;
+}
+
+.riepaff-prenotato-cliente{
+    background-color: black;
+}
+
+.riepaff-prenotato-interno{
+    background-color: navy;
+}
+
+.riepaff-non-prenotabile{
+    background-color: lightgray;
+}
+
+.riepaff-unknown{
+    background-color: red;
+}
+
+.riepilogo-affiliato-btn-disponibile{
+    width: 90%;
+    height: auto;
+    color: red;
+}

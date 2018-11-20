@@ -1,0 +1,99 @@
+.box-yellow{
+    background-color:  #ffff66;
+}
+.row{
+    margin: 0;
+}
+h1{
+    margin: 0 10px;
+}
+
+img.img-responsive.right{
+    float: right;
+}
+div.col-sm-4.col-xs-6.col-md-2.col-md-offset-10.col-lg-2.col-lg-offset-10.col-xs-offset-6.col-sm-offset-8{
+    padding-right: 5vw;
+    padding-top: 3vw;
+} 
+
+h5.bold,h4.bold, h3.bold, h1.bold{
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+h5{
+    font-size: 1vw;
+}
+h4{
+    font-size: 1.5vw;
+}
+h3{
+    font-size: 2vw;
+}
+h2{
+    font-size: 2.3vw;
+}
+h1{
+    font-size: 2.6vw;
+}
+
+select.form-control{
+    height: 30px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 2px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    box-shadow: 1px 1px 1px #888888;
+    background-color:whitesmoke;
+    color: black;
+    border-radius: 0;
+}
+
+.row.middle{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.row:last-child{
+    margin-bottom: 20px;
+}
+
+span.badge{
+    font-size: 20px;
+}
+
+span.badge.remove{
+    font-size: 30px;
+}
+
+span.badge.remove>a{
+    color: white;
+}
+
+span{
+    display: inline-block;
+}
+
+div.message{
+    padding-left: 0;
+}
+
+a.btn.btn-primary.btn-lg.vaiCasa{
+    float: right;
+    border-radius: 0;
+    box-shadow: 1px 2px 2px #888888;
+    border-color: gray;
+    width: 110%;
+    font-size: 1.5vw;
+    font-weight: 700;
+    color: #30437d;
+    background-color: #e2c110;
+}
+
+.container-fluid{
+    margin: 10px;
+    border: 1px solid #cccccc;;
+}
+

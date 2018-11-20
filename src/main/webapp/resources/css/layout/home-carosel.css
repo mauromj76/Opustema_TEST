@@ -1,0 +1,177 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 23, 2016, 8:47:21 AM
+    Author     : user
+*/
+
+h4.bold, h3.bold, h5.bold{
+    font-weight: bolder;
+}
+div.container-fluid.oferts{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 1vw;
+    width: 99%;
+    background-color: #e6e6e6;
+}
+
+h4.oferta{
+    margin-left: 8vw;
+}
+
+div#ofertsCarosel{
+/*   height: 450px;*/
+    background-color: #e6e6e6;
+}
+
+div.row.ofert-elements{
+    margin: 0;
+}
+
+div.carousel-inner.ofers{ 
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-bottom: 20px;
+    min-height: 550px;
+
+
+}
+a.left.carousel-control, a.right.carousel-control{
+    width: 8vw;
+     background-color: #e6e6e6;
+    background-image: none;
+}
+
+span.arrow>img{
+    margin-top: 150px;
+}
+
+div.ofert-gr5{
+    width: 300px;
+    margin-top: 50px;
+}
+
+div.carousel-inner.ofers>div.item{
+    margin-left: 4vw;
+}
+
+
+div#ofertsCarosel .carousel-indicators li:active,
+div#ofertsCarosel .carousel-indicators li:focus,
+div#ofertsCarosel .carousel-indicators li:visited{
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    border: 2px solid grey;
+}
+
+div#ofertsCarosel ol.carousel-indicators li{
+    border: 1px solid black; 
+}
+
+div.col-xs-4.col-sm-4.col-md-2.col-lg-2{
+    padding: 0 5px;
+}
+div.row.img-ofert{
+    margin: 0;
+}
+div.ofert.caracteristic>div.row{
+    margin: 0;
+}
+
+div.row.img-ofert>img.img-responsive{
+    min-height: 200px;
+}
+
+span.star-rating{
+    display: inline-block;  
+    width: 15%;
+    height: 15%;
+    padding: 0;
+}
+
+div.star{
+    padding: 0;
+    
+}
+
+div.col-xs-6.col-sm-6.col-md-6.col-lg-6,
+div.col-xs-4.col-sm-4.col-md-4.col-lg-4,
+div.col-xs-8.col-sm-8.col-md-8.col-lg-8,
+div.col-xs-7.col-sm-7.col-md-7.col-lg-7,
+div.col-xs-5.col-sm-5.col-md-5.col-lg-5{
+    padding: 0;
+}
+
+.box-border{
+    border-color: #999999;
+}
+
+div.ofert.caracteristic{
+    padding: 15px 5px;
+    background-color: white;
+}
+
+a.add-to-cart>img{
+    max-width: 60px;
+    max-height: 60px;
+    margin-top: 10px;
+    float: right;
+    margin-left: 10px;
+}
+
+div.carousel-inner.ofers ol.carousel-indicators{
+    bottom: -20px;
+    height: 30px;
+}
+
+div.row.img-ofert>div{
+  height: 200px;
+}
+
+div.row.img-ofert>div>img.img-responsive{
+    height: 100%;
+}
+
+div.row.address{
+    margin: 0;
+    background-color: white;
+}
+div.row.address>div{
+    padding: 5px 15px;
+}
+
+
+div.offerte-fascia-blue{
+    background-color: #0d96f2;
+    width: 45%;
+    height: 12%;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    opacity: 0.8;   
+}
+
+div.offerte-fascia-blue>h4{
+    color: white;
+     margin: 5px 10px;
+}
+
+div.offerte-fascia-blue-home{
+    background-color: #0d96f2;
+    width: 45%;
+    min-height: 11%;
+    position: absolute;
+    right: 5px;
+    top: 60px;
+    opacity: 0.8;   
+}
+
+div.offerte-fascia-blue-home>h4{
+    color: white;
+    margin: 5px 10px;
+}

@@ -1,0 +1,112 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 29, 2016, 4:28:13 PM
+    Author     : user
+*/
+
+span.star-rating{
+    display: inline-block;  
+    width: 15%;
+    height: 15%;
+    padding: 0;
+}
+
+div.star{
+    padding: 0;
+}
+
+a>img.aula-img.ricerca{
+/*    max-height: 90px;*/
+    width: 100%;
+    height: 95%;
+}
+
+span.star-rating>img.img-responsive.star{
+    height: 20px;
+    width: 20px;
+}
+
+span.star-rating{
+    display: inline-block;
+    float:right;
+}
+
+span.col-xs-2.col-sm-2.col-md-2.col-lg-2{
+  padding: 2px 0;   
+}
+span.col-xs-10.col-sm-10.col-md-10.col-lg-10{
+    padding: 3px 0;
+}
+div.col-xs-8.col-sm-8.col-md-8.col-lg-8>div.row{
+    margin-top: 10px;
+}
+
+
+table.table-aule-trovate{
+    width: 99%;
+}
+
+button.btn.btn-default.btn-block{
+    border: none;
+}
+
+div.box-border{
+    padding: 10px;
+    border: 1px solid #cccccc;
+}
+
+div.col-xs-3.col-sm-3.col-md-3.col-lg-3>div.row{
+    margin: 5px 0;
+}
+
+h5.bold{
+    font-weight:600;
+    text-align: right;
+    padding-right: 2.5vw;
+    
+}
+
+div.row.top-content-sort-advance,
+div.top-content-message{
+    margin: 10px -15px;
+}
+
+h4.bold{
+    margin-top: 0.3vw;
+    font-weight: 600;
+    font-size: 1.4vw;
+}
+
+td.text-center{
+    font-size: 1vw;
+    font-weight: 600;
+    padding-top: 1vw;
+}
+
+div.col-xs-3.col-sm-3.col-md-3.col-lg-3.weeek-navigation{
+    padding-top: 15px;
+}
+
+div.col-xs-3.col-sm-3.col-md-3.col-lg-3.weeek-navigation>h5{
+    font-weight: 600;
+    font-size: 0.8vw;
+    padding: 2px;
+    margin-top: 5px;
+}
+
+a.btn.btn-default{
+    padding: 5px;
+    width: 100%;
+    border: none;
+    text-decoration: underline;
+    font-size: 0.9vw;
+}
+
+img.img-responsive.logo{
+    float: right;
+    padding-right: 5px;
+}

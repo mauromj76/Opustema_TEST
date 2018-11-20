@@ -1,0 +1,764 @@
+/*Classi Bootstrap customizzate*/
+
+html *
+{
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.glyphicon{
+    font-family: 'Glyphicons Halflings' !important;
+    color:black;
+}
+div.gray-background
+{
+    background-color : #F7F7F7 !important;
+}
+/*Classi booking online*/
+#main-container{
+
+    background-color: #f7f7f7;
+}
+#home-abbonamenti
+{
+    background-color: #f7f7f7;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+#home-abbonamenti:hover{
+    -moz-box-shadow: 4px 4px 2px 2px gray;
+    -webkit-box-shadow: 4px 4px 2px 2px gray;
+    box-shadow: 4px 4px 2px 2px gray;
+}
+#home-abbonamenti-prezzo{
+    background-color: #2F4F4F;
+    color:white;
+}
+
+#home-abbonamenti-content
+{
+    margin-left: 5px;
+}
+#home-abbonamenti-content>h4{
+    text-transform: uppercase;
+}
+#home-abbonamenti-acquista>center>a
+{
+    margin-top: -15px;
+    width: 80%;
+    line-height: 10px;
+    text-align: left;
+}
+#home-abbonamenti-link{
+    margin-right: 50px;
+    text-align: right;
+}
+
+.cart-button{
+    font-size: 10px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+#cart-button-img{
+    margin-top: 5px;
+    padding-top: 0px;
+}
+
+.bol-menu-button{
+    padding-left: 0px;
+    width: auto;
+    padding-right:0px;
+}
+
+
+.bol-menu-icon {
+    background-color: #30437d;
+    border-style: none;
+    width:50px;
+    padding-left: 6px;
+    padding-top: 6px;
+}
+.bol-menu-icon:hover{
+    color: #fff;
+    background-color: #30437d;
+    border-style: none;
+    border-color: transparent;
+}
+.bol-menu-icon:focus{
+    outline:none !important;
+    outline-offset: 0px !important;
+}
+.bol-menu-icon>img{
+
+}
+
+.bol-header-bar{
+    background-color: #30437d;
+}
+
+.bol-header-row{
+    height:50px;
+}
+
+.bol-header-title {
+    background-color: transparent;
+    height: 46px;
+    padding-top: 0px;
+    font-size: 22px;
+    text-decoration: none;
+    color:white;
+    border-style: none;
+    outline:none !important;
+}
+.bol-header-title:hover, .bol-header-title:active, .bol-header-title:focus{
+    background-color: transparent !important;
+    outline: none !important;
+    color:#e2c110;
+}
+.bol-header-title>img{
+}
+
+.bol-header-cart {
+    background-color: #30437d;
+    border-style: none;
+    /*    float: right;*/
+    /*display:inline-block;*/
+    /*margin-right: 30px;*/
+}
+
+.bol-user-menu{
+    display: inline-block;
+    /*float: right;*/
+    /*width: 160px;*/
+    margin-right: 5px;
+}
+
+#bol-header-right{
+    display: inline;
+    position: relative;
+    left: 800px;
+}
+
+#bol-header-cart-text{
+    position: absolute;
+    text-align: left;
+    width: 100px;
+    top: 0px;
+    left: 50px;
+    font-size: 12px;
+}
+
+#bol-header-cart-cart-icon {
+    display: inline;
+}
+
+.bol-menu-area-riservata{
+    background-color: #e2c110;
+    display: inline;
+    text-align: center;
+    font-family: arial;
+    font-size: 18px;
+    color: #30437d;
+    float: right;
+    border-radius: 0 !important;
+}
+
+.bol-menu-area-riservata-logged{
+    background-color: #e2c110;
+    display: inline;
+    text-align: center;
+    font-family: arial;
+    font-size: 12px;
+    color: #30437d;
+    float: right;
+    border-radius: 0 !important;
+}
+
+#bol-hbol-aule-slideshow img{
+    /*width: 1000px;*/
+}
+
+/*Questa classe deve essere applicata a tutte le immagini del carousel aula in 
+modo che riempiano lo schermo e siano responsive.*/
+.aule-carousel-img{
+    width:100%;
+}
+#bol-hbol-search-form {
+    position: absolute;
+    right: 5%;
+    top: 15%;
+    width: 250px;
+    /*height: 250px;*/
+}
+
+#bol-hbol-search-form-title {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: inherit;
+    height: 20px;
+    background-color: #30437d;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#bol-hbol-search-form-criteria {
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    width: inherit;
+    height: 230px;
+    background-color:  rgba(255,255,255,0.8);
+}
+
+.bol-hbol-search-field {
+    width: 200px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.bol-hbol-search-submit{
+    background-color: #e2c110;
+    color:#30437d;
+}
+#bol-home-seleziona-periodo{
+    width: 200px;
+}
+
+.hbol-home-info-section {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.bol-hbol-sezione-informativa-icone-detail img{
+    height: 100px;
+    width: 100px;
+    alignment-adjust: central;
+}
+
+.bol-hbol-sezione-informativa-icone-didascalia {
+    font-size: 18px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.bol-abbonamenti-scroller{
+}
+
+#bol-hbol-abbonamenti-scroller-title{
+    text-align: center;
+}
+
+#bol-hbol-offerte-scroller-title{
+    text-align: center;
+}
+/* rmoved, is in the end, at the css footer section  starts on line 349
+#bol-footer{
+    background-color: #30437d;
+    color: #e2c110;
+} */
+
+#bol-footer-title{
+    text-align: center;
+}
+
+#bol-hbol-affiliati{
+
+}
+
+#bol-hbol-affiliati-title{
+    text-align: center;   
+}
+
+/* Bootstrap customization */
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:4px !important; 
+    padding-bottom:0 !important;
+    height: 38px;
+    width:1000px;
+}
+.navbar {
+    min-height:50px !important;
+    border-color: #30437d;
+    border-radius: 0px;
+    border: 2px solid transparent;
+    margin-bottom: 0px;
+    max-height: 50px !important;
+    z-index: 1;
+}
+
+#bol-menu-area-riservata .btn-primary {
+    background-color: #e2c110;
+    border-color: #e2c110;
+}
+
+#workinprogress {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    display: block;
+    border-color: red;
+    border-style: solid;
+    margin: 20px;
+    font-size: 24px;
+}
+
+#bol-hbol-titolo-lista-strutture {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+#bol-hbol-descrizione-lista-strutture{
+    /*    margin-left: 15%;
+        margin-right: 15%;*/
+}
+
+#content-container {
+    margin-top: 50px;
+    text-align: justify;
+}
+
+#bol-hbol-lista-strutture-filtro-form{
+    padding:10px;
+}
+
+#bol-hbol-lista-strutture-container{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.bol-hbol-lista-strutture-struttura{
+    display: inline-block;
+    min-width: 200px;
+    margin:auto;
+    padding:5px;
+    text-align: center;
+}
+
+#bol-hbol-dettaglio-struttura-container{
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+#bol-hbol-dettaglio-struttura-nome-affiliato{
+    display: inline-block;
+    font-size: 24px;
+}
+
+#bol-hbol-dettaglio-struttura-logo-affiliato{
+    display: inline-block;
+    margin-left: 200px;
+}
+
+.bol-hbol-dettaglio-struttura-aula{
+    display: inline-block;
+}
+
+#bol-immagini-struttura-container{
+    position: relative;
+}
+
+#bol-immagini-struttura-container ul{
+    list-style: none;
+    position:absolute;
+    top:180px;
+
+}
+
+#bol-dett-stru-img-grande{
+    width:300px;
+    height:200px;
+}
+
+.bol-dett-stru-img-piccola {
+    border-width: 1px;
+    border-color: #30437d;
+    border-style: solid;
+    /*padding:2px;*/
+}
+
+.bol-dett-stru-img-piccola img {
+    width: 80px;
+    height: 52px;
+}
+#bol-immagini-struttura-container li{
+    display: inline-block;
+}
+
+#bol-immagini-struttura-container{    
+    width:390px;
+    display: inline-block;
+}
+
+#bol-geoloc-struttura-container{
+    display: inline-block;
+}
+#bol-geoloc-struttura-descr{
+    display: inline-block;
+    width: 300px;
+}
+#bol-geoloc-descrizione-titolo{
+    margin-top: 40px;
+}
+
+/*#bol-geoloc-struttura-map{
+    display:inline-block;
+    border-style: solid;
+}*/
+
+#bol-filter-form {
+    margin-top:50px;
+    width: 250px;
+    height: auto;
+}
+
+#bol-filter-form-title {
+    width: inherit;
+    height: 20px;
+    background-color: #30437d;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#bol-filter-form-criteria {
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightskyblue;
+    background-color: whitesmoke;
+}
+
+/*HEAD 
+======= */
+
+.bol-aula-search-result-row{
+    border-bottom-color: lightgrey;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    height: 200px;
+}
+
+.bol-aula-search-result-aula{
+    text-align: center;
+}
+
+.bol-aula-search-result-available{
+    text-align: center;    
+}
+
+.bol-disponibilita-a-partire{
+    font-size: 0.7em;
+}
+.bol-disponibilita-prezzo-big{
+    font-size: 1.4em;
+}
+
+.bol-disponibilita-prezzo-small{
+    font-size: 1.0em;
+}
+
+.bol-text-center{
+    text-align:center;
+}
+
+/* css for footer */
+#bol-footer{
+    background-color: #30437d;
+    color:white;
+    line-height: 10px;
+    padding: 2em 2em 1em 2em;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 1em;
+}
+#bol-footer-left{
+    font-size: 16px;  
+    padding-left: 3em;
+    padding-top: 1em;
+}
+#bol-footer-left span h4{
+    padding-left: 1em;
+    padding-top: 1em;
+    font-size: 18px;
+    font-family:arial;
+    text-align: center;
+}
+#bol-footer-left span a{
+    color:white;
+}
+#bol-footer-left span a:hover{
+    color:#cccccc;
+    text-decoration: none;
+}
+#bol-footer-right{
+    padding-top: 1em;
+}
+
+#footer-disclaimer-regione{
+    color: #ececec;
+    font-size: 10px;
+    text-align: justify;
+}
+/* end css for footer */
+
+/* CSS for left navigation bars */
+.left-navbar {
+    margin-left: 5px;
+    background-color: #fff;
+    color:#30437d;
+    border-radius: 0;
+    margin-top: 40px;
+}
+
+.menu-item-left-navbar{
+    color:#30437d;
+    background-color: #fff;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.left-navbar-header{
+    text-align: center;
+    background-color: #30437d;
+    color: #fff;
+    padding: 3px;
+}
+/* End of CSS for left navigation bars */
+/* CSS for abbonamenti*/
+#abbonamenti-header
+{
+    line-height: 50px;
+
+}
+#abbonamenti-details>.col-xs-2
+{
+    background-color: #ececec;
+
+}
+#abbonamenti-details>.col-xs-2>strong{
+    text-transform: capitalize;
+}
+.top-buffer{
+    margin-top: 20px;
+}
+
+.abbonamenti-table{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.abbonamenti-caratteristiche{
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+    padding-right: 10px;
+    padding-left: 10px;
+    max-width: 300px;
+    border: 1px solid black;
+}
+
+.abbonamenti-edit{
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: left;
+    font-weight: normal;
+    font-size: 14px;
+    padding-right: 5px;
+    padding-left: 5px;
+    max-width: 300px;
+    border: 1px solid black;
+}
+
+.valore-caratteristica-abbonamento{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 3px;
+    border-width: 1px;
+    border-style: solid;
+    max-width:120px;
+}
+
+.abbonamento-nome{
+    text-align: center;
+    font-size: 16px;
+    background-color: lightgray;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.abbonamento-costo{
+    color: white;
+    padding: 4px;
+    max-width: 120px;
+}
+
+.abbonamento-acquista-button{
+    background-color: #e2c110;
+    color: #30437d;
+    font-weight: bold;
+}
+
+.abbonamenti-header{
+    background-color: #4268bb;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+
+}
+label
+{
+    text-align: left !important;
+}
+.modal-body
+{
+    margin-left: 20px;
+}
+.modal-table-data
+{
+    vertical-align: middle;
+    border: 1px solid graytext !important;
+}
+.radio{
+    background-color:#30437d;
+    color: white;
+    min-height: 50px;
+    max-height: 50px;
+    display: inline !important;
+    width: 100%;
+}
+#modal-conferma{
+    width:350px;
+}
+.center
+{
+    margin: auto;
+    text-align: center;
+}
+.box-border
+{
+    border: 1px solid #30437d;
+    background-color: white;
+}
+.inline
+{
+    display:inline-block;
+}
+.row-eq-height
+{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+}
+
+.dalle-alle
+{
+    display:inline-block !important;
+    width:auto !important;
+}
+.right-label{
+    text-align: right !important;
+}
+.glyphicon-ok-sign{
+    color:green;
+    font-size: 18px;
+}
+.glyphicon-remove-sign{
+    color:gray;
+    font-size: 15px;
+}
+
+/* End of CSS for abbonamenti */
+
+.cart-total{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#software-version-number{
+    font-size: 8px;
+    font-style: italic; 
+}
+
+.anchor-float-right{
+    float:right;
+}
+
+.logo-footer{
+    width: 80px;
+    height: 80px;
+}
+
+.logo-header{
+    width: 35px;
+    height: 35px;
+}
+
+/* Images size layout */
+.img-xs{
+    width:100px;
+    height: 100px;
+}
+
+.img-sm{
+    width:150px;
+    height: 150px;
+}
+
+.img-md{
+    width:200px;
+    height: 200px;
+}
+
+.img-lg{
+    width:250px;
+    height: 250px;
+}
+
+.img-xl{
+    width:300px;
+    height: 300px;
+}
+
+.img-icon{
+    width:50px;
+    height: 50px;
+}
+
+.elem-centered{
+    text-align: center;
+    margin: auto;
+}
+
+/*Class for TD size in in place x-editable tables*/
+.in-place-editable-md{
+    width: 200px;
+}
+.in-place-editable-sm{
+    width: 150px;
+}
+.in-place-editable-xs{
+    width: 50px;
+}
+
+/* RisGestore classes */
+.ris-gestore-table{
+    margin-left:5px;
+    margin-right:auto;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.ris-gestore-td{
+    padding: 5px 5px 5px 5px;
+}
+

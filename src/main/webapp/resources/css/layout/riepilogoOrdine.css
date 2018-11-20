@@ -1,0 +1,111 @@
+div.container-fluid.risaffiliato-container>div div.row{
+    margin: -5px;
+}
+/*a.btn, button.btn{
+    border-radius: 0;
+    box-shadow: 1px 1px 1px #888888;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}*/
+
+a.btn.btn-right,
+button.btn-right{
+    float: right;
+    margin-top: 20px;
+    font-weight: 600;
+    font-family:sans-serif;
+}
+
+div.col-xs-12.col-sm-6.col-md-3.col-lg-2{
+ padding-right: 0px; 
+ padding-left: 0;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+.border-top{
+    border-top: 2px solid black;
+    margin-bottom: 50px;
+}
+
+h3.bold{
+    margin-top: 10px;
+}
+
+div.box-border.choose-payment,
+div.box-border.choose-payment,
+div.box-border.choose-payment>div.head{
+    padding: 0;
+}
+div.box-border.choose-payment>div.row{
+    margin-top: 0;
+}
+
+div.box-border.choose-payment>div.row:last-child{
+    margin-top: 20px;
+}
+
+div.box-border.choose-payment>div.row>h4{
+    margin: 5px;
+    padding: 5px;
+}
+
+div.col-xs-12.col-sm-6.col-md-3.col-lg-2{
+    margin-top: 20px;
+}
+
+div.form-group{
+  padding-left:  0;
+  padding-right: 0;
+}
+
+
+form#right-men-riep-ord input{
+    position: relative;
+    margin-right: 10px;
+}
+
+form#right-men-riep-ord>div.radio label{
+background-color: whitesmoke;
+color: black;
+vertical-align: super;
+}
+
+form#right-men-riep-ord>div.radio label span{
+     margin-bottom: -5px;  
+}
+ 
+form#right-men-riep-ord>div.radio{
+background-color: whitesmoke;
+}
+
+div.checkbox.form-group{
+    margin-top: 50px;
+}
+
+/*div.checkbox.form-group label{
+    text-decoration: underline;
+}*/
+
+div.checkbox.form-group input{
+    width: 18px;
+    height: 18px;  
+    float: left;
+}
+
+div.col-xs-11.col-sm-11.col-md-11.col-lg-11.text-left{
+ text-decoration: underline;
+ margin-top: -1px;
+padding: 0;
+}
+
+span>h3.bold{
+    padding-right: 20px;
+}
+
+span>h3.bold.price{
+    padding-right: 0px;
+}

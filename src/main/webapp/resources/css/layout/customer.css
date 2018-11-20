@@ -1,0 +1,157 @@
+
+
+body
+{
+    background-color: #f1f1f1;
+}
+table>thead>tr>td
+{
+    font-weight: bold;
+}
+td>a
+{
+    text-decoration: underline;
+}
+td>a:visited
+{
+    text-decoration: underline;
+}
+a.underlined
+{
+    text-decoration: underline;
+}
+.modal-md-plus
+{
+    max-height: 15px;
+    max-width: 340px;
+}
+label
+{
+    padding-top: 0px !important;
+}
+.table
+{
+    margin-left: 10px;
+    width:97%;
+    max-width: 97%;
+    min-width: 97%;
+}
+.box-yellow
+{
+    margin-top: 5px;
+    border:0.5px solid black;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+}
+small
+{
+    color:inherit;
+}
+.table>thead
+{
+    border: 0px none;
+}
+.table>tbody>tr>td
+{
+    border: 1px black solid;
+    vertical-align: middle;
+}
+.btn-default
+{
+    border-color: blue;
+    color:blue;
+}
+.divider-buttons
+{
+    width:20px;
+    height:auto;
+    display:inline-block;
+}
+.divider{
+    border-color:#cccccc;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    alignment-adjust: central;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.divider-thick
+{
+    border-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    alignment-adjust: central;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.border-div
+{
+    border:1px gray solid;
+    background-color: white;
+    -moz-box-shadow:    1px 1px 2px 2px #ccc;
+    -webkit-box-shadow: 1px 1px 2px 2px #ccc;
+    box-shadow:         1px 1px 2px 2px #ccc;
+}
+div.border-div h2
+{
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.form-horizontal>.form-group>label
+{
+    padding-left: 30px;
+}
+.table>tbody>tr>td
+{
+    padding: 0px 0px 0px 7px;
+}
+
+.box-yellow>h1{
+    font-size:1.8vw;
+    text-align: center;
+}
+#totale{
+    margin-bottom: 0px;
+    text-align: right;
+}
+
+.table-min-height-258{
+    min-height: 258px;
+}
+a{
+    cursor: pointer;
+}
+
+div.box-border{
+    margin-right: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+a.underlined{
+    text-align: center;
+}
+
+table.table.gestione td{
+    height: 40px;
+}
+
+table.table.gestione th{
+    border-bottom-width: 0;
+}
+
+#caratteristicheAulaResult{
+    border-top: 1px solid black; 
+}
+
+.servizio-descr {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.riepilogo-right-aligned{
+    padding-right: 0px;
+    text-align: right;
+}

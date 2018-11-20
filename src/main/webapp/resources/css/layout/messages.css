@@ -1,0 +1,107 @@
+/* Style for advertising messages which appears on the top of the page */
+.top-content-message{
+    background-color: yellow;
+    text-align: center;
+    border: solid gray 1px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/*Style for message under advertising messages on top of content.
+Example: search results count, combo box for type of money selection, ...*/
+.top-content-information{
+    margin: 5px;
+}
+
+.top-content-sort-advance{
+    border-style: solid;
+    border-width: 1px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.top-content-advance-links{
+    text-align: right;
+}
+
+.search-results-aula{
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin-top: 30px;
+}
+
+.search-results-all-days{
+    font-size: 12px;
+    padding: 5px;
+
+}
+
+.search-results-all-days tr{
+    font-size: 12px;
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+.search-results-all-days table{
+    width: 100%;
+}
+
+.search-results-aula-nome{
+    font-size: 14px;
+}
+
+.search-results-single-day{
+/*    border-style: solid;
+    border-width: 1px;
+    border-color: grey;*/
+    font-size: 10px;
+    text-align: center;
+    /*height: 110px;*/
+
+    /*    padding: 5px;*/
+}
+
+.search-results-single-day-disp{
+    /*    border-style: solid;
+        border-width: 1px;*/
+    font-size: 10px;
+    text-align: center;
+    /*    padding: 0px;*/
+    background-color: lightgreen;
+}
+
+.search-results-single-day-non-disp{
+    border-style: solid;
+    border-width: 1px;
+    font-size: 10px;
+    text-align: center;
+    padding: 5px;
+    background-color: lightgrey;
+}
+
+.search-results-single-day-altri{
+    border-style: solid;
+    border-width: 1px;
+    font-size: 10px;
+    text-align: center;
+    padding: 5px;
+    background-color: lightblue;
+}
+.search-results-all-days h2{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.search-results-single-day h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.search-results-single-day h4{
+    font-size: 10px;
+    font-weight: bold;
+}
