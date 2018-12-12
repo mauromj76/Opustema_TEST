@@ -1,17 +1,17 @@
 package it.logicadeisistemi.opustema.service;
 
-import it.logicadeisistemi.opustema.model.Cliente;
+import it.logicadeisistemi.opustema.dto.ClienteRichiestaDto;
+import it.logicadeisistemi.opustema.dto.ClienteRispostaDto;
 import java.util.List;
 
 public interface ClienteService {
 
-    Cliente get(Long id);
+    List<ClienteRispostaDto> aggiungiCliente(ClienteRichiestaDto dto);
 
-    Cliente save(Cliente aula);
+    List<ClienteRispostaDto> modificaCliente(ClienteRichiestaDto dto);
 
-    void deleteCliente(Long id);
+    List<ClienteRispostaDto> leggiClienti();
 
-    List<Cliente> listAll();
-    
-    
+    List<ClienteRispostaDto> cancellaCliente(Long id);
+
 }

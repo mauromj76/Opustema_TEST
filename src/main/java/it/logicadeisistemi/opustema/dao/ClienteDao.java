@@ -1,20 +1,18 @@
 package it.logicadeisistemi.opustema.dao;
 
+import it.logicadeisistemi.opustema.dto.ClienteRichiestaDto;
 import it.logicadeisistemi.opustema.model.Cliente;
 import java.util.List;
 
 public interface ClienteDao {
 
-    /**
-     * Permette di recuperare il cliente di id dato
-     * @param id
-     * @return 
-     */
-    Cliente get(Long id);
+    Cliente save(Cliente c);
 
-    Cliente save(Cliente aula);
+    List<Cliente> findAll();
 
-    void deleteCliente(Long id);
+    Cliente findById(Long id);
 
-    List<Cliente> listaAll();
+    Cliente modificaCliente(ClienteRichiestaDto dto);
+
+    void delete(Long id);
 }

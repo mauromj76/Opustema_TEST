@@ -1,35 +1,25 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package it.logicadeisistemi.opustema.model;
+package it.logicadeisistemi.opustema.dto;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+public class ClienteRispostaDto {
 
-/**
- *
- * @author utente
- */
-@Entity
-public class Cliente {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    Long id;
-    @Column
+    private Long id;
     private String nome;
-    @Column
     private String cognome;
-    @Column
     private String codiceFiscale;
-    @Column
     private String indirizzo;
-    @Column
     private String telefono;
+
+    public ClienteRispostaDto(Long id, String nome, String cognome, String codiceFiscale, String indirizzo, String telefono) {
+        this.id = id;
+        this.nome = nome;
+        this.cognome = cognome;
+        this.codiceFiscale = codiceFiscale;
+        this.indirizzo = indirizzo;
+        this.telefono = telefono;
+    }
+
+    public ClienteRispostaDto() {
+    }
 
     public Long getId() {
         return id;
@@ -78,5 +68,4 @@ public class Cliente {
     public void setTelefono(String telefono) {
         this.telefono = telefono;
     }
-    
 }
